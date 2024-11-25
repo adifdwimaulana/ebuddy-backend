@@ -7,12 +7,12 @@ export default class UserController {
   private userRepository = new UserRepository();
 
   async getUser(req: Request, res: Response, next: NextFunction) {
-    // if (!req.uid) {
-    //   console.error("Error");
-    //   throw new Error("Uid not found");
-    // }
-    // const user = await this.userRepository.getUserByUid(req.uid);
-    // res.status(200).json(user);
+    if (!req.uid) {
+      console.error("Error");
+      throw new Error("Uid not found");
+    }
+    const user = await this.userRepository.getUserByUid(req.uid);
+    res.status(200).json(user);
   }
 
   async register(req: Request, res: Response, next: NextFunction) {
@@ -30,8 +30,7 @@ export default class UserController {
   }
 
   async updateUser(req: Request, res: Response, next: NextFunction) {
-    // const uid = req.uid;
-    // const { name, email, address, profile_url } = req.body;
-    // const user = await this.getUserByUid(uid);
+    const uid = req.uid;
+    const { name, email, address, profile_url } = req.body;
   }
 }
