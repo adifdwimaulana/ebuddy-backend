@@ -1,4 +1,5 @@
 import express, { Express, Request, Response } from "express";
+import { onRequest } from "firebase-functions/https";
 import dotenv from "dotenv";
 import { errorHandler } from "@middlewares/errorHandler";
 import userRoutes from "@routes/userRoutes";
@@ -7,7 +8,7 @@ import authRoutes from "@routes/authRoutes";
 dotenv.config();
 
 const app: Express = express();
-const port = process.env.PORT || 8000;
+const port = process.env.SERVER_PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -24,3 +25,5 @@ app.get("/", (req: Request, res: Response) => {
 app.listen(port, () => {
   console.log(`[server]: Server is running at http://localhost:${port}`);
 });
+
+exports.app = onRequest(app);

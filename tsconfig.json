@@ -32,7 +32,7 @@
     // "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     "typeRoots": [
-      "types",
+      "src/types",
       "node_modules/@types"
     ] /* Specify multiple folders that act like './node_modules/@types'. */,
     // "types": [
@@ -113,7 +113,7 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
 
-    "baseUrl": "./",
+    "baseUrl": "src",
     "paths": {
       "@configs/*": ["configs/*"],
       "@controllers/*": ["controllers/*"],
@@ -124,6 +124,6 @@
       "@types/*": ["types/*"]
     }
   },
-  "include": ["**/*.ts", "**/*.d.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
