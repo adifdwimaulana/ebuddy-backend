@@ -11,6 +11,7 @@ export default class UserController {
       console.error("Error");
       throw new Error("Uid not found");
     }
+
     const user = await this.userRepository.getUserByUid(req.uid);
     res.status(200).json(user);
   }

@@ -6,6 +6,6 @@ const router = express.Router();
 const userController = new UserController();
 
 router.get("/:id", authenticate, userController.getUser.bind(userController));
-router.post("/", userController.register.bind(userController));
+router.put("/:id", userController.updateUser.bind(userController));
 
 export default router;

@@ -14,8 +14,7 @@ const authenticate = async (
   const idToken = authHeader.split("Bearer ")[1];
   try {
     const decodedToken = await auth.verifyIdToken(idToken);
-    // @ts-ignore
-    req.uid = decodedToken.uid; // somehow got ts error even already add custom.d.ts
+    req.uid = decodedToken.uid;
     next();
   } catch (error) {
     console.error("Error verifying token:", error);
