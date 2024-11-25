@@ -1,53 +1,59 @@
-[debug] [2024-11-25T14:38:58.316Z] ----------------------------------------------------------------------
-[debug] [2024-11-25T14:38:58.317Z] Command:       /Users/adifdwimaulana/.nvm/versions/node/v18.16.1/bin/node /Users/adifdwimaulana/.nvm/versions/node/v18.16.1/bin/firebase emulators:start
-[debug] [2024-11-25T14:38:58.317Z] CLI Version:   13.27.0
-[debug] [2024-11-25T14:38:58.317Z] Platform:      darwin
-[debug] [2024-11-25T14:38:58.317Z] Node Version:  v18.16.1
-[debug] [2024-11-25T14:38:58.319Z] Time:          Mon Nov 25 2024 21:38:58 GMT+0700 (Western Indonesia Time)
-[debug] [2024-11-25T14:38:58.320Z] ----------------------------------------------------------------------
+[debug] [2024-11-25T15:15:31.088Z] ----------------------------------------------------------------------
+[debug] [2024-11-25T15:15:31.089Z] Command:       /Users/adifdwimaulana/.nvm/versions/node/v18.16.1/bin/node /Users/adifdwimaulana/.nvm/versions/node/v18.16.1/bin/firebase emulators:start
+[debug] [2024-11-25T15:15:31.089Z] CLI Version:   13.27.0
+[debug] [2024-11-25T15:15:31.089Z] Platform:      darwin
+[debug] [2024-11-25T15:15:31.089Z] Node Version:  v18.16.1
+[debug] [2024-11-25T15:15:31.090Z] Time:          Mon Nov 25 2024 22:15:31 GMT+0700 (Western Indonesia Time)
+[debug] [2024-11-25T15:15:31.090Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-11-25T14:38:58.382Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-11-25T14:38:58.382Z] > authorizing via signed-in user (adifdwimaulana@gmail.com)
-[debug] [2024-11-25T14:38:59.004Z] openjdk version "11.0.22" 2024-01-16 LTS
-
-[debug] [2024-11-25T14:38:59.005Z] OpenJDK Runtime Environment Corretto-11.0.22.7.1 (build 11.0.22+7-LTS)
+[debug] [2024-11-25T15:15:31.148Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-25T15:15:31.148Z] > authorizing via signed-in user (adifdwimaulana@gmail.com)
+[debug] [2024-11-25T15:15:31.246Z] openjdk version "11.0.22" 2024-01-16 LTS
+[debug] [2024-11-25T15:15:31.246Z] 
+OpenJDK Runtime Environment Corretto-11.0.22.7.1 (build 11.0.22+7-LTS)
 OpenJDK 64-Bit Server VM Corretto-11.0.22.7.1 (build 11.0.22+7-LTS, mixed mode)
 
-[debug] [2024-11-25T14:38:59.007Z] Parsed Java major version: 11
+[debug] [2024-11-25T15:15:31.249Z] Parsed Java major version: 11
 [info] i  emulators: Starting emulators: auth, functions, firestore, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, extensions"}}
-[debug] [2024-11-25T14:38:59.012Z] Checked if tokens are valid: true, expires at: 1732547901007
-[debug] [2024-11-25T14:38:59.012Z] Checked if tokens are valid: true, expires at: 1732547901007
-[debug] [2024-11-25T14:38:59.013Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/e-buddy-monorepo [none]
-[debug] [2024-11-25T14:39:00.199Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/e-buddy-monorepo 200
-[debug] [2024-11-25T14:39:00.200Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/e-buddy-monorepo {"projectNumber":"118621736523","projectId":"e-buddy-monorepo","lifecycleState":"ACTIVE","name":"e-buddy","labels":{"firebase":"enabled"},"createTime":"2024-11-24T10:07:30.006258Z"}
-[debug] [2024-11-25T14:39:00.974Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-11-25T14:39:00.974Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-11-25T14:39:00.974Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-11-25T14:39:00.974Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-11-25T14:39:00.974Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2024-11-25T14:39:00.980Z] [hub] writing locator at /var/folders/r8/92sr32_j5cd14ln2n5y3pmmm0000gp/T/hub-e-buddy-monorepo.json
-[debug] [2024-11-25T14:39:00.988Z] [Extensions] Started Extensions emulator, this is a noop.
-[debug] [2024-11-25T14:39:01.341Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-11-25T14:39:01.341Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-11-25T14:39:01.341Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-11-25T14:39:01.341Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[debug] [2024-11-25T15:15:31.251Z] Checked if tokens are valid: false, expires at: 1732547901007
+[debug] [2024-11-25T15:15:31.252Z] Checked if tokens are valid: false, expires at: 1732547901007
+[debug] [2024-11-25T15:15:31.252Z] > refreshing access token with scopes: []
+[debug] [2024-11-25T15:15:31.253Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-25T15:15:31.253Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-25T15:15:31.356Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-11-25T15:15:31.356Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-25T15:15:31.384Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/e-buddy-monorepo [none]
+[debug] [2024-11-25T15:15:32.572Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/e-buddy-monorepo 200
+[debug] [2024-11-25T15:15:32.573Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/e-buddy-monorepo {"projectNumber":"118621736523","projectId":"e-buddy-monorepo","lifecycleState":"ACTIVE","name":"e-buddy","labels":{"firebase":"enabled"},"createTime":"2024-11-24T10:07:30.006258Z"}
+[debug] [2024-11-25T15:15:33.230Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-25T15:15:33.231Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-25T15:15:33.231Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-25T15:15:33.231Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-25T15:15:33.231Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project e-buddy-monorepo. This may result in unexpected behavior. 
+[debug] [2024-11-25T15:15:33.234Z] [hub] writing locator at /var/folders/r8/92sr32_j5cd14ln2n5y3pmmm0000gp/T/hub-e-buddy-monorepo.json
+[debug] [2024-11-25T15:15:33.240Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2024-11-25T15:15:33.577Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-25T15:15:33.577Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-25T15:15:33.577Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-25T15:15:33.577Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
 [warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
-[debug] [2024-11-25T14:39:01.344Z] defaultcredentials: writing to file /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json
-[debug] [2024-11-25T14:39:01.353Z] Setting GAC to /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json"}}
-[debug] [2024-11-25T14:39:01.353Z] Checked if tokens are valid: true, expires at: 1732547901007
-[debug] [2024-11-25T14:39:01.353Z] Checked if tokens are valid: true, expires at: 1732547901007
-[debug] [2024-11-25T14:39:01.353Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-buddy-monorepo/adminSdkConfig [none]
-[debug] [2024-11-25T14:39:01.706Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-buddy-monorepo/adminSdkConfig 200
-[debug] [2024-11-25T14:39:01.707Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-buddy-monorepo/adminSdkConfig {"projectId":"e-buddy-monorepo","storageBucket":"e-buddy-monorepo.firebasestorage.app"}
-[debug] [2024-11-25T14:39:01.750Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2024-11-25T14:39:01.750Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
-[debug] [2024-11-25T14:39:01.750Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/Users/adifdwimaulana/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","e-buddy-monorepo","--rules","/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/Users/adifdwimaulana/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"e-buddy-monorepo\",\"--rules\",\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
+[debug] [2024-11-25T15:15:33.579Z] defaultcredentials: writing to file /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json
+[debug] [2024-11-25T15:15:33.588Z] Setting GAC to /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json"}}
+[debug] [2024-11-25T15:15:33.588Z] Checked if tokens are valid: true, expires at: 1732551330356
+[debug] [2024-11-25T15:15:33.588Z] Checked if tokens are valid: true, expires at: 1732551330356
+[debug] [2024-11-25T15:15:33.589Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-buddy-monorepo/adminSdkConfig [none]
+[debug] [2024-11-25T15:15:34.209Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-buddy-monorepo/adminSdkConfig 200
+[debug] [2024-11-25T15:15:34.209Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-buddy-monorepo/adminSdkConfig {"projectId":"e-buddy-monorepo","storageBucket":"e-buddy-monorepo.firebasestorage.app"}
+[debug] [2024-11-25T15:15:34.250Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-11-25T15:15:34.250Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-11-25T15:15:34.250Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/Users/adifdwimaulana/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","e-buddy-monorepo","--rules","/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/Users/adifdwimaulana/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"e-buddy-monorepo\",\"--rules\",\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
 [info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
-[debug] [2024-11-25T14:39:02.880Z] Nov 25, 2024 9:39:02 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+[debug] [2024-11-25T15:15:35.082Z] Nov 25, 2024 10:15:35 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
 INFO: Started WebSocket server on ws://127.0.0.1:9150
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:02 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
-[debug] [2024-11-25T14:39:02.895Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
-[debug] [2024-11-25T14:39:02.895Z] 127.0.0.1:8080
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 10:15:35 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9150\n"}}
+[debug] [2024-11-25T15:15:35.096Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2024-11-25T15:15:35.096Z] 127.0.0.1:8080
 If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
 
    export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
@@ -61,13 +67,13 @@ Dev App Server is now running.
 
  {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8080\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nIf you are running a Firestore in Datastore Mode project, run:\n\n   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080\n\nNote: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.\nDev App Server is now running.\n\n"}}
 [info] ✔  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
-[debug] [2024-11-25T14:39:05.815Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[debug] [2024-11-25T15:15:38.169Z] [Extensions] Connecting Extensions emulator, this is a noop.
 [info] i  functions: Watching "/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo\" for Cloud Functions..."}}
-[debug] [2024-11-25T14:39:05.822Z] Validating nodejs source
-[debug] [2024-11-25T14:39:06.471Z] > [functions] package.json contents: {
+[debug] [2024-11-25T15:15:38.174Z] Validating nodejs source
+[debug] [2024-11-25T15:15:38.756Z] > [functions] package.json contents: {
   "name": "backend-repo",
   "version": "1.0.0",
-  "description": "",
+  "description": "E-buddy backend assessment test",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && tsc-alias",
@@ -90,32 +96,28 @@ Dev App Server is now running.
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.9.3",
-    "concurrently": "^9.1.0",
     "nodemon": "^3.1.7",
     "tsc-alias": "^1.8.10",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.7.2"
   }
 }
-[debug] [2024-11-25T14:39:06.471Z] Building nodejs source
-[debug] [2024-11-25T14:39:06.472Z] Failed to find version of module node: reached end of search path /Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules
+[debug] [2024-11-25T15:15:38.756Z] Building nodejs source
+[debug] [2024-11-25T15:15:38.756Z] Failed to find version of module node: reached end of search path /Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules
 [info] ✔  functions: Using node@18 from host. 
 [info] i  functions: Loaded environment variables from .env. 
-[debug] [2024-11-25T14:39:06.498Z] Could not find functions.yaml. Must use http discovery
-[debug] [2024-11-25T14:39:06.500Z] Found firebase-functions binary at '/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/.bin/firebase-functions'
-[debug] [2024-11-25T14:39:06.522Z] Nov 25, 2024 9:39:06 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:06 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[info] Serving at port 8882
+[debug] [2024-11-25T15:15:38.775Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-11-25T15:15:38.778Z] Found firebase-functions binary at '/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/.bin/firebase-functions'
+[info] Serving at port 8467
 
 [info] [server]: Server is running at http://localhost:3000
 
-[debug] [2024-11-25T14:39:07.095Z] Got response from /__/functions.yaml {"endpoints":{"app":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"app"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
-[debug] [2024-11-25T14:39:17.115Z] defaultcredentials: writing to file /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json
-[debug] [2024-11-25T14:39:17.123Z] Setting GAC to /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json"}}
+[debug] [2024-11-25T15:15:39.236Z] Got response from /__/functions.yaml {"endpoints":{"app":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"app"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[debug] [2024-11-25T15:15:49.253Z] defaultcredentials: writing to file /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json
+[debug] [2024-11-25T15:15:49.254Z] Setting GAC to /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/adifdwimaulana/.config/firebase/adifdwimaulana_gmail_com_application_default_credentials.json"}}
 [info] ✔  functions: Loaded functions definitions from source: app. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: app."}}
 [info] ✔  functions[us-central1-app]: http function initialized (http://127.0.0.1:5001/e-buddy-monorepo/us-central1/app). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/e-buddy-monorepo/us-central1/app)."}}
-[debug] [2024-11-25T14:39:17.148Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED ::1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[debug] [2024-11-25T15:15:49.271Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: connect ECONNREFUSED ::1:40001. If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
@@ -140,213 +142,51 @@ INFO: Connected to new websocket client
 └─────────────────────────┴───────────────┴─────────────────────┘
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2024-11-25T14:39:19.013Z] Nov 25, 2024 9:39:19 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+[debug] [2024-11-25T15:16:34.847Z] Nov 25, 2024 10:16:34 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
 INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:19 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[debug] [2024-11-25T14:39:19.014Z] Nov 25, 2024 9:39:19 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:19 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
-[debug] [2024-11-25T14:39:36.103Z] [work-queue] {"queuedWork":["/e-buddy-monorepo/us-central1/app-2024-11-25T14:39:36.103Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:39:36.104Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-buddy-monorepo/us-central1/app-2024-11-25T14:39:36.103Z"],"workRunningCount":1}
-[debug] [2024-11-25T14:39:36.105Z] Accepted request POST /e-buddy-monorepo/us-central1/app --> us-central1-app
-[debug] [2024-11-25T14:39:36.111Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2024-11-25T14:39:36.112Z] [functions] Got req.url=/e-buddy-monorepo/us-central1/app, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-buddy-monorepo/us-central1/app, mapping to path=/"}}
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 10:16:34 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
+[debug] [2024-11-25T15:18:05.551Z] File /Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/README.md changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/README.md changed, reloading triggers"}}
+[debug] [2024-11-25T15:18:06.557Z] Validating nodejs source
+[debug] [2024-11-25T15:18:07.363Z] > [functions] package.json contents: {
+  "name": "backend-repo",
+  "version": "1.0.0",
+  "description": "E-buddy backend assessment test",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "start": "npm run build && firebase emulators:start",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^13.0.1",
+    "firebase-functions": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.3",
+    "nodemon": "^3.1.7",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2"
+  }
+}
+[debug] [2024-11-25T15:18:07.363Z] Building nodejs source
+[debug] [2024-11-25T15:18:07.363Z] Failed to find version of module node: reached end of search path /Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules
+[info] ✔  functions: Using node@18 from host. 
 [info] i  functions: Loaded environment variables from .env. 
-[debug] [2024-11-25T14:39:36.127Z] [worker-pool] addWorker(us-central1-app) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-app)"}}
-[debug] [2024-11-25T14:39:36.128Z] [worker-pool] Adding worker with key us-central1-app, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-app, total=1"}}
-[debug] [2024-11-25T14:39:37.124Z] Nov 25, 2024 9:39:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
-[debug] [2024-11-25T14:39:37.125Z] Nov 25, 2024 9:39:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:37 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[debug] [2024-11-25T14:39:37.756Z] [runtime-status] [24795] Resolved module firebase-admin {"declared":true,"installed":true,"version":"13.0.1","resolution":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"13.0.1\",\"resolution\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2024-11-25T14:39:37.757Z] [runtime-status] [24795] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js\"}"}}
-[debug] [2024-11-25T14:39:37.757Z] [runtime-status] [24795] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2024-11-25T14:39:37.757Z] [runtime-status] [24795] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js\"}"}}
-[debug] [2024-11-25T14:39:38.155Z] [runtime-status] [24795] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Checked functions.config() {\"config\":{}}"}}
-[debug] [2024-11-25T14:39:38.155Z] [runtime-status] [24795] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js\"}}"}}
-[debug] [2024-11-25T14:39:38.156Z] [runtime-status] [24795] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js\"}"}}
-[debug] [2024-11-25T14:39:38.162Z] [runtime-status] [24795] Resolved module firebase-admin {"declared":true,"installed":true,"version":"13.0.1","resolution":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"13.0.1\",\"resolution\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2024-11-25T14:39:38.163Z] [runtime-status] [24795] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.1.1","resolution":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.1.1\",\"resolution\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-functions/lib/v2/index.js\"}"}}
-[debug] [2024-11-25T14:39:38.163Z] [runtime-status] [24795] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"13.0.1","resolution":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"13.0.1\",\"resolution\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/firebase-admin/lib/index.js\"}}"}}
-[debug] [2024-11-25T14:39:38.276Z] [runtime-status] [24795] initializeApp(DEFAULT) {"credential":{"googleAuth":{"jsonContent":null,"cachedCredential":null,"clientOptions":{"transporterOptions":{}},"_cachedProjectId":null,"scopes":["https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/firebase.database","https://www.googleapis.com/auth/firebase.messaging","https://www.googleapis.com/auth/identitytoolkit","https://www.googleapis.com/auth/userinfo.email"],"apiKey":null}},"databaseURL":"http://localhost:8080"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] initializeApp(DEFAULT) {\"credential\":{\"googleAuth\":{\"jsonContent\":null,\"cachedCredential\":null,\"clientOptions\":{\"transporterOptions\":{}},\"_cachedProjectId\":null,\"scopes\":[\"https://www.googleapis.com/auth/cloud-platform\",\"https://www.googleapis.com/auth/firebase.database\",\"https://www.googleapis.com/auth/firebase.messaging\",\"https://www.googleapis.com/auth/identitytoolkit\",\"https://www.googleapis.com/auth/userinfo.email\"],\"apiKey\":null}},\"databaseURL\":\"http://localhost:8080\"}"}}
-[debug] [2024-11-25T14:39:38.288Z] [runtime-status] [24795] Functions runtime initialized. {"cwd":"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo","node_version":"18.16.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Functions runtime initialized. {\"cwd\":\"/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo\",\"node_version\":\"18.16.1\"}"}}
-[info] >  [server]: Server is running at http://localhost:3000 {"user":"[server]: Server is running at http://localhost:3000","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"\u001b[90m> \u001b[39m [server]: Server is running at http://localhost:3000"}}
-[debug] [2024-11-25T14:39:38.289Z] [runtime-status] [24795] Listening to port: /var/folders/r8/92sr32_j5cd14ln2n5y3pmmm0000gp/T/fire_emu_0ba92954ab3ec97f.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[runtime-status] [24795] Listening to port: /var/folders/r8/92sr32_j5cd14ln2n5y3pmmm0000gp/T/fire_emu_0ba92954ab3ec97f.sock"}}
-[debug] [2024-11-25T14:39:38.365Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE"}}
-[debug] [2024-11-25T14:39:38.365Z] [worker-pool] submitRequest(triggerId=us-central1-app) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-app)"}}
-[info] i  functions: Beginning execution of "us-central1-app" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Beginning execution of \"us-central1-app\""}}
-[debug] [2024-11-25T14:39:38.366Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY"}}
-[debug] [2024-11-25T14:39:38.382Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-app" in 16.452166ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finished \"us-central1-app\" in 16.452166ms"}}
-[debug] [2024-11-25T14:39:38.382Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE"}}
-[debug] [2024-11-25T14:39:38.382Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2024-11-25T14:39:38.383Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2024-11-25T14:39:38.383Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:39:53.977Z] [work-queue] {"queuedWork":["/e-buddy-monorepo/us-central1/app/users/register-2024-11-25T14:39:53.977Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:39:53.978Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-buddy-monorepo/us-central1/app/users/register-2024-11-25T14:39:53.977Z"],"workRunningCount":1}
-[debug] [2024-11-25T14:39:53.978Z] Accepted request POST /e-buddy-monorepo/us-central1/app/users/register --> us-central1-app
-[debug] [2024-11-25T14:39:53.983Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2024-11-25T14:39:53.984Z] [functions] Got req.url=/e-buddy-monorepo/us-central1/app/users/register, mapping to path=/users/register {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-buddy-monorepo/us-central1/app/users/register, mapping to path=/users/register"}}
-[debug] [2024-11-25T14:39:53.984Z] [worker-pool] submitRequest(triggerId=us-central1-app) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-app)"}}
-[info] i  functions: Beginning execution of "us-central1-app" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Beginning execution of \"us-central1-app\""}}
-[debug] [2024-11-25T14:39:53.984Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY"}}
-[debug] [2024-11-25T14:39:53.999Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-app" in 14.657917ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finished \"us-central1-app\" in 14.657917ms"}}
-[debug] [2024-11-25T14:39:53.999Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE"}}
-[debug] [2024-11-25T14:39:53.999Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2024-11-25T14:39:53.999Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2024-11-25T14:39:53.999Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:39:55.262Z] Nov 25, 2024 9:39:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
-[debug] [2024-11-25T14:39:55.264Z] Nov 25, 2024 9:39:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[debug] [2024-11-25T14:39:55.394Z] [work-queue] {"queuedWork":["/e-buddy-monorepo/us-central1/app/users/register-2024-11-25T14:39:55.392Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:39:55.396Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-buddy-monorepo/us-central1/app/users/register-2024-11-25T14:39:55.392Z"],"workRunningCount":1}
-[debug] [2024-11-25T14:39:55.396Z] Accepted request POST /e-buddy-monorepo/us-central1/app/users/register --> us-central1-app
-[debug] [2024-11-25T14:39:55.400Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2024-11-25T14:39:55.401Z] [functions] Got req.url=/e-buddy-monorepo/us-central1/app/users/register, mapping to path=/users/register {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-buddy-monorepo/us-central1/app/users/register, mapping to path=/users/register"}}
-[debug] [2024-11-25T14:39:55.401Z] [worker-pool] submitRequest(triggerId=us-central1-app) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-app)"}}
-[info] i  functions: Beginning execution of "us-central1-app" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Beginning execution of \"us-central1-app\""}}
-[debug] [2024-11-25T14:39:55.401Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY"}}
-[debug] [2024-11-25T14:39:55.409Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-app" in 8.513916ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finished \"us-central1-app\" in 8.513916ms"}}
-[debug] [2024-11-25T14:39:55.410Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE"}}
-[debug] [2024-11-25T14:39:55.410Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2024-11-25T14:39:55.410Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2024-11-25T14:39:55.411Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:39:57.281Z] Nov 25, 2024 9:39:57 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:57 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
-[debug] [2024-11-25T14:39:57.287Z] Nov 25, 2024 9:39:57 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:39:57 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[debug] [2024-11-25T14:40:00.879Z] [work-queue] {"queuedWork":["/e-buddy-monorepo/us-central1/app/register-2024-11-25T14:40:00.879Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:40:00.880Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-buddy-monorepo/us-central1/app/register-2024-11-25T14:40:00.879Z"],"workRunningCount":1}
-[debug] [2024-11-25T14:40:00.880Z] Accepted request POST /e-buddy-monorepo/us-central1/app/register --> us-central1-app
-[debug] [2024-11-25T14:40:00.884Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2024-11-25T14:40:00.885Z] [functions] Got req.url=/e-buddy-monorepo/us-central1/app/register, mapping to path=/register {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-buddy-monorepo/us-central1/app/register, mapping to path=/register"}}
-[debug] [2024-11-25T14:40:00.885Z] [worker-pool] submitRequest(triggerId=us-central1-app) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-app)"}}
-[info] i  functions: Beginning execution of "us-central1-app" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Beginning execution of \"us-central1-app\""}}
-[debug] [2024-11-25T14:40:00.886Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY"}}
-[debug] [2024-11-25T14:40:00.895Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-app" in 9.156209ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finished \"us-central1-app\" in 9.156209ms"}}
-[debug] [2024-11-25T14:40:00.895Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE"}}
-[debug] [2024-11-25T14:40:00.895Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2024-11-25T14:40:00.896Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2024-11-25T14:40:00.896Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:40:01.323Z] Nov 25, 2024 9:40:01 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:01 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
-[debug] [2024-11-25T14:40:01.328Z] Nov 25, 2024 9:40:01 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:01 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[debug] [2024-11-25T14:40:19.953Z] [work-queue] {"queuedWork":["/e-buddy-monorepo/us-central1/app-2024-11-25T14:40:19.953Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:40:19.953Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-buddy-monorepo/us-central1/app-2024-11-25T14:40:19.953Z"],"workRunningCount":1}
-[debug] [2024-11-25T14:40:19.953Z] Accepted request GET /e-buddy-monorepo/us-central1/app --> us-central1-app
-[debug] [2024-11-25T14:40:19.958Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2024-11-25T14:40:19.958Z] [functions] Got req.url=/e-buddy-monorepo/us-central1/app, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-buddy-monorepo/us-central1/app, mapping to path=/"}}
-[debug] [2024-11-25T14:40:19.958Z] [worker-pool] submitRequest(triggerId=us-central1-app) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-app)"}}
-[info] i  functions: Beginning execution of "us-central1-app" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Beginning execution of \"us-central1-app\""}}
-[debug] [2024-11-25T14:40:19.959Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY"}}
-[debug] [2024-11-25T14:40:19.972Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-app" in 13.705166ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finished \"us-central1-app\" in 13.705166ms"}}
-[debug] [2024-11-25T14:40:19.972Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE"}}
-[debug] [2024-11-25T14:40:19.973Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2024-11-25T14:40:19.973Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2024-11-25T14:40:19.973Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:40:21.480Z] Nov 25, 2024 9:40:21 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:21 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
-[debug] [2024-11-25T14:40:21.484Z] Nov 25, 2024 9:40:21 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:21 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[debug] [2024-11-25T14:40:49.597Z] [work-queue] {"queuedWork":["/e-buddy-monorepo/us-central1/app/auth/register-2024-11-25T14:40:49.597Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:40:49.598Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-buddy-monorepo/us-central1/app/auth/register-2024-11-25T14:40:49.597Z"],"workRunningCount":1}
-[debug] [2024-11-25T14:40:49.598Z] Accepted request GET /e-buddy-monorepo/us-central1/app/auth/register --> us-central1-app
-[debug] [2024-11-25T14:40:49.603Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2024-11-25T14:40:49.603Z] [functions] Got req.url=/e-buddy-monorepo/us-central1/app/auth/register, mapping to path=/auth/register {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-buddy-monorepo/us-central1/app/auth/register, mapping to path=/auth/register"}}
-[debug] [2024-11-25T14:40:49.603Z] [worker-pool] submitRequest(triggerId=us-central1-app) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-app)"}}
-[info] i  functions: Beginning execution of "us-central1-app" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Beginning execution of \"us-central1-app\""}}
-[debug] [2024-11-25T14:40:49.604Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY"}}
-[debug] [2024-11-25T14:40:49.617Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-app" in 13.207125ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finished \"us-central1-app\" in 13.207125ms"}}
-[debug] [2024-11-25T14:40:49.617Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE"}}
-[debug] [2024-11-25T14:40:49.617Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2024-11-25T14:40:49.617Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2024-11-25T14:40:49.617Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:40:49.657Z] Nov 25, 2024 9:40:49 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:49 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
-[debug] [2024-11-25T14:40:49.658Z] Nov 25, 2024 9:40:49 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:49 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[debug] [2024-11-25T14:40:55.128Z] [work-queue] {"queuedWork":["/e-buddy-monorepo/us-central1/app/auth/register-2024-11-25T14:40:55.128Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:40:55.128Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-buddy-monorepo/us-central1/app/auth/register-2024-11-25T14:40:55.128Z"],"workRunningCount":1}
-[debug] [2024-11-25T14:40:55.128Z] Accepted request POST /e-buddy-monorepo/us-central1/app/auth/register --> us-central1-app
-[debug] [2024-11-25T14:40:55.131Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2024-11-25T14:40:55.132Z] [functions] Got req.url=/e-buddy-monorepo/us-central1/app/auth/register, mapping to path=/auth/register {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-buddy-monorepo/us-central1/app/auth/register, mapping to path=/auth/register"}}
-[debug] [2024-11-25T14:40:55.132Z] [worker-pool] submitRequest(triggerId=us-central1-app) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-app)"}}
-[info] i  functions: Beginning execution of "us-central1-app" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Beginning execution of \"us-central1-app\""}}
-[debug] [2024-11-25T14:40:55.134Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: BUSY"}}
-[debug] [2024-11-25T14:40:55.164Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/e-buddy-monorepo/trigger_multicast [none]
-[debug] [2024-11-25T14:40:55.164Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/e-buddy-monorepo/trigger_multicast {"eventId":"815af428-b834-4182-a73c-79aca30323fd","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/e-buddy-monorepo","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-11-25T14:40:55.164Z","data":{"uid":"Vf5A4JwG5MLglw5rXiOtFEaqm9Dp","email":"john@gmail.com","emailVerified":false,"metadata":{"creationTime":"2024-11-25T14:40:55.163Z","lastSignInTime":"2024-11-25T14:40:55.163Z"},"customClaims":{},"providerData":[{"providerId":"password","email":"john@gmail.com","federatedId":"john@gmail.com","rawId":"john@gmail.com"}]}}
-[debug] [2024-11-25T14:40:55.168Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/e-buddy-monorepo/trigger_multicast 200
-[debug] [2024-11-25T14:40:55.168Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/e-buddy-monorepo/trigger_multicast {"status":"multicast_acknowledged"}
-[debug] [2024-11-25T14:40:55.386Z] Nov 25, 2024 9:40:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:55 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:40:55.687Z] Nov 25, 2024 9:40:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed\nINFO: Websocket client disconnected\n"}}
-[debug] [2024-11-25T14:40:55.687Z] Nov 25, 2024 9:40:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:40:55 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\nINFO: Connected to new websocket client\n"}}
-[debug] [2024-11-25T14:40:55.758Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-app" in 623.860458ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finished \"us-central1-app\" in 623.860458ms"}}
-[debug] [2024-11-25T14:40:55.758Z] [worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"[worker-us-central1-app-cc9ed18f-3ec4-4d7f-8cab-69636a302b3f]: IDLE"}}
-[debug] [2024-11-25T14:40:55.758Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2024-11-25T14:40:55.758Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-app"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2024-11-25T14:40:55.758Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2024-11-25T14:41:00.800Z] Nov 25, 2024 9:41:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:00.881Z] Nov 25, 2024 9:41:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:00.942Z] Nov 25, 2024 9:41:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:00 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:01.077Z] Nov 25, 2024 9:41:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:01.123Z] Nov 25, 2024 9:41:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:01 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:04.620Z] Nov 25, 2024 9:41:04 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:04 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:04.624Z] Nov 25, 2024 9:41:04 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
-INFO: channel closed
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:04 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}
-[debug] [2024-11-25T14:41:08.092Z] Nov 25, 2024 9:41:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:08.114Z] Nov 25, 2024 9:41:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:08.135Z] Nov 25, 2024 9:41:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:08.136Z] Nov 25, 2024 9:41:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:08 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:09.622Z] Nov 25, 2024 9:41:09 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:09 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\nINFO: Detected non-HTTP/2 connection.\n"}}
-[debug] [2024-11-25T14:41:09.625Z] Nov 25, 2024 9:41:09 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose
-INFO: channel closed
- {"metadata":{"emulator":{"name":"firestore"},"message":"Nov 25, 2024 9:41:09 PM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreListenHandler onClose\nINFO: channel closed\n"}}
+[debug] [2024-11-25T15:18:07.365Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-11-25T15:18:07.365Z] Found firebase-functions binary at '/Users/adifdwimaulana/Documents/Adif/temp/ebuddy/backend-repo/node_modules/.bin/firebase-functions'
+[info] Serving at port 8813
+
+[info] [server]: Server is running at http://localhost:3000
+
+[debug] [2024-11-25T15:18:07.940Z] Got response from /__/functions.yaml {"endpoints":{"app":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"app"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}

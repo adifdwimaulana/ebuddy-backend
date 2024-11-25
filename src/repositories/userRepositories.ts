@@ -13,4 +13,11 @@ export class UserRepository {
     const user = await this.userCollection.doc(uid).get();
     return user;
   }
+
+  async updateUser(uid: string, data: any) {
+    const user = await this.userCollection
+      .doc(uid)
+      .update({ name: data.name, gender: data.gender, address: data.address });
+    return user;
+  }
 }

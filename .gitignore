@@ -1,4 +1,3 @@
 node_modules
 dist
 .env
-configs/credential.json
