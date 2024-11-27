@@ -12,7 +12,7 @@ export default class UserController {
     }
 
     const user = await this.userRepository.getUserByUid(req.uid);
-    res.status(200).json(user);
+    res.status(200).json({ status: "success", data: user.data() });
   }
 
   async register(req: Request, res: Response, next: NextFunction) {
@@ -24,7 +24,13 @@ export default class UserController {
         id: createdUser.uid,
       } as User);
 
-      res.status(201).json(user);
+      res
+        .status(201)
+        .json({
+          status: "success",
+          message: "User created successfully",
+          data: user,
+        });
     } catch (error) {
       console.error(error);
       res.status(500).json(error);
@@ -43,7 +49,11 @@ export default class UserController {
       );
       res
         .status(200)
-        .json({ message: "User updated successfully", data: user });
+        .json({
+          status: "success",
+          message: "User updated successfully",
+          data: user,
+        });
     } catch (error) {
       console.error(error);
       res.status(500).json(error);

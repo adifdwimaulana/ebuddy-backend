@@ -6,13 +6,13 @@ const router = express.Router();
 const userController = new UserController();
 
 router.get(
-  "fetch-user-data",
+  "/fetch-user-data",
   authenticate,
   userController.getUser.bind(userController)
 );
 router.post("/register-user", userController.register.bind(userController));
 router.put(
-  "update-user-data",
+  "/update-user-data",
   authenticate,
   userController.updateUser.bind(userController)
 );
