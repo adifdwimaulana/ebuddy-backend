@@ -17,10 +17,12 @@ export default class UserController {
 
   async register(req: Request, res: Response, next: NextFunction) {
     try {
-      const { name, email, password, gender, address } = req.body;
+      const { email, password } = req.body;
       const createdUser = await auth.createUser({ email, password });
-      const data = new User(createdUser.uid, name, email, gender, address);
-      const user = await this.userRepository.create(data);
+      const user = await this.userRepository.create({
+        ...req.body,
+        id: createdUser.uid,
+      } as User);
 
       res.status(201).json(user);
     } catch (error) {

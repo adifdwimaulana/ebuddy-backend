@@ -65,6 +65,6 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 
 ## API Endpoint
 
-- Register User `/auth/register`
-- Get User `/users/:id`
-- Update User `/users/:id`
+- Register User `/register-user`
+- Get User `/fetch-user-data`
+- Update User `/update-user-data`

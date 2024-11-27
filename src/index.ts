@@ -2,8 +2,7 @@ import express, { Express, Request, Response } from "express";
 import { onRequest } from "firebase-functions/https";
 import dotenv from "dotenv";
 import { errorHandler } from "@middlewares/errorHandler";
-import userRoutes from "@routes/userRoutes";
-import authRoutes from "@routes/authRoutes";
+import routes from "@routes/routes";
 
 dotenv.config();
 
@@ -15,9 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(errorHandler);
 
 // Routes
-app.use("/users", userRoutes);
-app.use("/auth", authRoutes);
-
+app.use("/", routes);
 app.get("/", (req: Request, res: Response) => {
   res.send("Express + TypeScript Server");
 });

@@ -5,7 +5,7 @@ export class UserRepository {
   private userCollection = db.collection("users");
 
   async create(data: User) {
-    const user = await this.userCollection.doc(data.id).set(data.toObject());
+    const user = await this.userCollection.doc(data.id).set(data);
     return user;
   }
 
